@@ -10,6 +10,7 @@ export const GradientContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 `
 
 export const Heading = styled.h1`
@@ -37,19 +38,31 @@ export const ColorContainer = styled.ul`
   justify-content: space-evenly;
   align-items: center;
   width: 70%;
-  max-width: 650px;
+  max-width: 400px;
 `
 
 export const ColorInput = styled.input`
-  border : none ,
-  outline : none,
-  width: 50px;
+  border: none;
+  outline: none;
+  width: 75px;
+  padding: 0;
 `
 
-export const ColorTab = styled.input`
+export const ColorTab = styled.li`
+  list-style-type: none;
   display: flex;
   width: 50%;
-  padding: 5px;
+
   flex-direction: column;
   align-items: center;
+`
+
+export const GenerateButton = styled.button`
+  border: none;
+  outline: none;
+  width: 100px;
+  background-color: #00c9b7;
+  color: #1e293b;
+  padding: 10px;
+  border-radius: 8px;
 `
